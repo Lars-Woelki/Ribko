@@ -1,23 +1,29 @@
 body{
-	background: #bf6c3f;
-}
-div{	
-	width: 20%;
-	height: 20%;
-
-	position: absolute;
-	transform: transpose(-50%, 50%);
-	top: 20%;
-	left: 42%;
+	background: #4fff72;
+	margin:0%;
 }
 
-h1{
-	font-size: 10.0 em;	
-	text-align:center;
-	
+.topmenue{
+	width: 25%;
+	height: 5%;
+	position: fixed;
+	background:#abffbc;
+	text-align: center;
+	margin:0%;
+	padding-top:1%;
 }
 
+.lm{
+	left:25%;
+}
 
+.rm{
+	left:50%;
+}
+
+.rr{
+	left:75%;
+}
 
 
 	
