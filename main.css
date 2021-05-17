@@ -1,17 +1,31 @@
+header{
+	margin:0%;
+	
+}
 body{
 	background: #4fff72;
-	margin:0%;
+	margin:0%;	
 }
 
+
+
 .topmenue{
-	width: 25%;
-	height: 5%;
-	position: fixed;
-	background:#abffbc;
-	text-align: center;
-	margin:0%;
 	padding-top:1%;
-}
+	width: 25%;
+	height: 3.5%;
+	position: fixed;	
+	text-align: center;
+	background-color: #a2fc8b;
+	z-index:999;
+
+	
+}	
+.text{
+	position:absolute;
+	top:4%;
+}	
+
+
 
 .lm{
 	left:25%;
