@@ -32,6 +32,31 @@ section{
 }
 
 
+.pip{
+	position: absolute;
+	height: 3vw;
+	width: 3vw;
+	background: rgb(210,255,210);
+	display:block;
+	
+}
+
+.topmenu{
+	position: absolute;
+	height: 100%;
+	width:25%;
+	background: rgb(230,255,230);
+	display: none;
+}
+.active{
+	display:block;
+}
+
+.liste{
+	padding-top:11%;
+}
+
+
 
 
 
