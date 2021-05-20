@@ -34,8 +34,8 @@ section{
 
 .pip{
 	position: absolute;
-	height: 3vw;
-	width: 3vw;
+	height: 7vw;
+	width: 7vw;
 	background: rgb(210,255,210);
 	display:block;
 	
@@ -44,9 +44,10 @@ section{
 .topmenu{
 	position: absolute;
 	height: 100%;
-	width:25%;
+	width:50%;
 	background: rgb(230,255,230);
 	display: none;
+	font-size: 4vw;
 }
 .active{
 	display:block;
