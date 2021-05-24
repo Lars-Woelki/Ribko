@@ -3,7 +3,7 @@ body{
 	margin:0%;
 	background: rgba(70, 70, 70, 1);
 	background-image: url("ribko_small.png"), url("ribko_small.png");
-	 background-repeat:no-repeat;
+	background-repeat:no-repeat;
 	background-size: contain;
 	background-position: left, right;
 		
@@ -20,11 +20,15 @@ body{
 	height: 10%;
 	position: absolute;
 	background-color: rgba(170, 255, 170, 1);
-	left:50%;
+	left:-25%;
 	transform:translate(-50%,-50%);
 	border-radius:2vw;
 	animation-name: menu_to_middle;
   	animation-duration: 0.8s;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+	
+	
 
 }
 .tt{
