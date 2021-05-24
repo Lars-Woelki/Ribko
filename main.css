@@ -1,44 +1,56 @@
-header{
-	margin:0%;
-	
-}
+
 body{
-	background: #4fff72;
-	margin:0%;	
+	margin:0%;
+	background: rgba(70, 70, 70, 1);
+	background-image: url("ribko_small.png"), url("ribko_small.png");
+	 background-repeat:no-repeat;
+	background-size: contain;
+	background-position: left, right;
+		
 }
 
 
 
-.topmenue{
-	padding-top:1%;
+.topmenu{
+	
+	display:flex;
+	align-items:center;
+	justify-content: center;
 	width: 25%;
-	height: 3.5%;
-	position: fixed;	
-	text-align: center;
-	background-color: #a2fc8b;
-	z-index:999;
-
-	
-}	
-.text{
-	position:absolute;
-	top:4%;
-}	
-
-
-
-.lm{
-	left:25%;
-}
-
-.rm{
+	height: 10%;
+	position: absolute;
+	background-color: rgba(170, 255, 170, 1);
 	left:50%;
+	transform:translate(-50%,-50%);
+	border-radius:2vw;
+	animation-name: menu_to_middle;
+  	animation-duration: 0.8s;
+
+}
+.tt{
+	top:25%;
 }
 
-.rr{
-	left:75%;
+.tm{
+	top:40%;
 }
 
+.bm{
+	top:55%;
+}
 
+.bb{
+	top:70%;
+}
+
+.topmenu:hover{
+	box-shadow: 0px 0px 20px rgba(120, 255, 120, 1);
+	background-color:rgba(120, 255, 120, 1);
 	
-	
+}
+
+@keyframes menu_to_middle{
+	from{left:-25%;}
+	to{left:50%;}
+}
+

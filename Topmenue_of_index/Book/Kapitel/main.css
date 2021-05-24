@@ -38,19 +38,23 @@ section{
 	width: 7vw;
 	background: rgb(210,255,210);
 	display:block;
+	transition: width 1s;
 	
 }
 
 .topmenu{
 	position: absolute;
 	height: 100%;
-	width:50%;
+	width:0%;
 	background: rgb(230,255,230);
-	display: none;
+	display: block;
 	font-size: 4vw;
+	transition: width 1s;
+	overflow:hidden;
 }
-.active{
+.topmenu.offen{
 	display:block;
+	width:50%;
 }
 
 .liste{
