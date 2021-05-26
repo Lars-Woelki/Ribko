@@ -1,5 +1,5 @@
-body,html {
-	overflow: hidden;
+.overflow_hidden{
+	overflow-x: hidden;
 }
 body{
 	height:200vh;
