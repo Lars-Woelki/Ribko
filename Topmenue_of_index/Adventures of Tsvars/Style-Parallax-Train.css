@@ -1,7 +1,9 @@
+body,html {
+	overflow-x: hidden;
+}
 body{
 	height:200vh;
 	margin:0vw;
-	overflow-x: hidden;
 	background:#e7f2f8;
 }
 
