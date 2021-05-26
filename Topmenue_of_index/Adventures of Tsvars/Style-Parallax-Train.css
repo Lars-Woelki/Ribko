@@ -30,6 +30,18 @@ h1{
 	height: 100vh;
 	top:150vh;	
 }
+.Train{
+	
+
+	animation-name: train_move;
+  	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes train_move{
+	from{right:-50%}
+	to{right:80%}
+}
 
 .frontcolor{
 	position:absolute;
