@@ -2,9 +2,9 @@ body{
 	height:200vh;
 	margin:0vw;
 	background:#e7f2f8;
-	position: relative;
+	position: absolute;
 	
-	width: 300vw;
+	width: 100vw;
 	
 }
 
@@ -45,16 +45,11 @@ h1{
 @media screen and (max-width: 700px){
 	.Train{
 	position:absolute;
-	left:50%;
-	top:50%;
-	transform:translate(0%,0%);
-	animation-name: train_no_move;
+	left:-50%;
 	}
 
-	@keyframes train_no_move{
-	from{right:0%;}
-	to{right:0%;}
-}
+
+
 
 }
 
