@@ -3,7 +3,8 @@ body{
 	margin:0vw;
 	background:#e7f2f8;
 	position: relative;
-	overflow-x: hidden;
+	
+	width: 300vw;
 	
 }
 
@@ -46,8 +47,8 @@ h1{
 }
 
 @keyframes train_move{
-	from{right:0%}
-	to{right:110%}
+	from{right:0%;}
+	to{right:110%;}
 }
 
 .frontcolor{
@@ -58,11 +59,17 @@ h1{
 	top: 100vh;
 	 
 }
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 992px){
 	.Train{
 	position:absolute;
+	left:50%;
+	top:50%;
 	transform:translate(0%,0%);
-	
-	animation-name: none;
+	animation-name: train_no_move;
+	}
+	@keyframes train_no_move{
+	from{left:0%;}
+	to{left:0%;}
 }
 }
