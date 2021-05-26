@@ -37,11 +37,12 @@ h1{
 	animation-name: train_move;
   	animation-duration: 4s;
 	animation-iteration-count: infinite;
+	transform:translate(50%,-100%);
 }
 
 @keyframes train_move{
-	from{right:-50%}
-	to{right:80%}
+	from{right:0%}
+	to{right:110%}
 }
 
 .frontcolor{
