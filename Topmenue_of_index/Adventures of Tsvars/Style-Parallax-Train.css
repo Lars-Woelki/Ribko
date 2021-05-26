@@ -1,10 +1,10 @@
-.overflow_hidden{
-	overflow-x: hidden;
-}
 body{
 	height:200vh;
 	margin:0vw;
 	background:#e7f2f8;
+	position: relative;
+	overflow-x: hidden;
+	
 }
 
 h1{
