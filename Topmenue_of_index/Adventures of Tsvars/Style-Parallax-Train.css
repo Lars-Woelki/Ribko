@@ -38,6 +38,7 @@ h1{
   	animation-duration: 4s;
 	animation-iteration-count: infinite;
 	transform:translate(50%,-100%);
+	overflow-x: hidden;
 }
 
 @keyframes train_move{
