@@ -1,0 +1,26 @@
+body{
+	height:2000vw;
+	margin:0vw;
+	overflow-x: hidden;
+	background:#e7f2f8;
+	
+}
+
+.parallax{
+	
+	position: absolute;
+	width: 100vw;
+	transform:translate(0%,-100%);  	
+	margin:0vw;
+	height: 100vh;
+	top:150vh;	
+}
+
+.frontcolor{
+	position:absolute;
+	background:#243f98;
+	width:100vw;
+	height:2000vh;
+	top: 100vh;
+	 
+}
