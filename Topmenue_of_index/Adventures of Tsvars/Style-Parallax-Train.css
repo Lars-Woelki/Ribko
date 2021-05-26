@@ -28,7 +28,8 @@ h1{
 	transform:translate(0%,-100%);  	
 	margin:0vw;
 	height: 100vh;
-	top:150vh;	
+	top:150vh;
+	overflow-x: hidden;	
 }
 .Train{
 	
