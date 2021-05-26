@@ -1,3 +1,6 @@
+html{
+	position: relative;
+}
 body{
 	height:200vh;
 	margin:0vw;
@@ -41,6 +44,7 @@ h1{
 	animation-iteration-count: infinite;
 	transform:translate(50%,-100%);
 	overflow-x: hidden;
+	position: relative;
 }
 
 @keyframes train_move{
@@ -49,7 +53,7 @@ h1{
 }
 
 .frontcolor{
-	position:absolute;
+	position: relative;
 	background:#243f98;
 	width:100vw;
 	height:300vh;
