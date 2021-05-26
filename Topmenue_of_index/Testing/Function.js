@@ -6,20 +6,21 @@ var parallax_5= document.getElementsByClassName('parallax 5');
 var parallax_6= document.getElementsByClassName('parallax 6');
 var parallax_7= document.getElementsByClassName('parallax 7');
 var frontcolor= document.getElementsByClassName('frontcolor');
-var initial_top = 120;
+var initial_top = 150;
+var speed_of_parallax=30;
 
 function walk(){
 	
 	var value = window.scrollY;
 	
-	parallax_1[0].style.top = initial_top-0.07966*value*2 + 'vh';
-	parallax_2[0].style.top = initial_top-0.040342*value*2 + 'vh';
-	parallax_3[0].style.top = initial_top-0.014841*value*2 + 'vh';
-	parallax_4[0].style.top = initial_top-0.005460*value*2 + 'vh';
-	parallax_5[0].style.top = initial_top-0.002008*value*2 + 'vh';
-	parallax_6[0].style.top = initial_top-0.000738*value*2 + 'vh';
-	parallax_7[0].style.top = initial_top-0.000271*value*2 + 'vh';
-	frontcolor[0].style.top = initial_top-1-0.08*value*2 + 'vh';
+	parallax_1[0].style.top = initial_top-0.01*value*speed_of_parallax + 'vh';
+	parallax_2[0].style.top = initial_top-0.008*value*speed_of_parallax + 'vh';
+	parallax_3[0].style.top = initial_top-0.006*value*speed_of_parallax + 'vh';
+	parallax_4[0].style.top = initial_top-0.004*value*speed_of_parallax + 'vh';
+	parallax_5[0].style.top = initial_top-0.002*value*speed_of_parallax + 'vh';
+	parallax_6[0].style.top = initial_top-0.0008*value*speed_of_parallax + 'vh';
+	parallax_7[0].style.top = initial_top-0.0006*value*speed_of_parallax + 'vh';
+	frontcolor[0].style.top = initial_top-1-0.01*value*speed_of_parallax + 'vh';
 
 	}
 
