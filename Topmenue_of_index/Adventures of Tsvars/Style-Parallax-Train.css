@@ -3,7 +3,7 @@ body{
 	margin:0vw;
 	background:#e7f2f8;
 	position: absolute;
-	
+	overflow-x: hidden;
 	width: 100vw;
 	
 }
@@ -11,7 +11,57 @@ body{
 h1{
 	font-family: "Lucida Handwriting";
 	font-size: 5vw;
+}
+
+h2{
+	font-family: "Times New Roman";
+	font-size: 3vw;
+	text-align:left;
+	margin-left:5vw;
+	color:#e4e5ed;
+}
+
+h3{
+	font-family: "Times New Roman";
+	font-size: 5vw;
+	text-align:center;
+	color:#e4e5ed;
 }	
+.Tsvars_Bildercontainer_left{
+	box-shadow: 10px 10px 5px #182b66;
+	max-height: 55vh;
+	width: fit-content;
+	background: white;
+	position: relative;
+	left: 10vw;
+
+}
+.Tsvars_Bildercontainer_right{
+	box-shadow: 10px 10px 5px #182b66;
+	max-height: 55vh;
+	width: fit-content;
+	background: white;
+	position: relative;
+	right: 10vw;	
+
+	
+}
+.Tsvars_Bilder{
+	
+	max-height: 50vh;
+	
+}	
+
+.Tsvars_Bilder_caption{
+	position:relative;
+	top: 50%;
+  	left: 50%;
+	text-align:center;
+  	transform: translate(-50%, -50%);
+	
+
+	
+}
 	
 .heading{
 	text-align:center;
@@ -31,7 +81,7 @@ h1{
 	margin:0vw;
 	height: 100vh;
 	top:150vh;
-	overflow-x: hidden;	
+		
 }
 .Train{
 	
@@ -62,7 +112,7 @@ h1{
 	position: absolute;
 	background:#243f98;
 	width:100vw;
-	height:300vh;
+	height:1000vh;
 	top: 100vh;
 	 
 }
