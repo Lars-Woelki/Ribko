@@ -1,11 +1,15 @@
 
 body{
 	margin:0%;
+	filter: brightness(0.8);
 	background: rgba(70, 70, 70, 1);
 	background-image: url("ribko_small.png"), url("ribko_small.png");
 	background-repeat:no-repeat;
 	background-size: contain;
 	background-position: left, right;
+	backdrop-filter: brightness(15%);
+	filter:brightness(100%);
+	
 		
 }
 

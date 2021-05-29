@@ -1,0 +1,20 @@
+
+img{
+	width:40vw;
+	position:relative;
+}
+
+div{
+position:relative;
+left:10%;
+width: fit-content;
+backgorund:red;
+border-style: solid;
+text-align:center;
+
+}
+
+.hallo{
+	width: 400px;
+	height: 800px;
+}
