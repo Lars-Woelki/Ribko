@@ -1,0 +1,88 @@
+body{
+	background: rgb(186,225,255);
+	box-sizing: border-box;
+}
+h1{
+	font-family: "Lucida Handwriting";
+	font-size: 10vh;
+	text-align: center;
+}
+h2{
+	font-family: "Georgia";
+	font-size: 7vh;
+	text-align: center;
+}
+
+p{
+	font-family: "Times New Roman";
+	font-size: 5vh;
+	text-align: justify;
+	margin-left: 7vh;
+	margin-right: 7vh;
+}
+
+.flex-container{
+	position: relative;
+	left: 5vw;
+	display: flex;
+	flex-direction: row;
+	box-sizing: border-box;
+	background-color: transparent;
+	width: 90vw;
+
+}
+
+.picture{
+	box-sizing: border-box;
+	width: 40vw;
+	padding: 0vw;
+	margin: 0vw;
+	
+}
+
+.picture-container-left{
+	position: relative;
+	width: fit-content;
+	bottom:0vw;
+	margin: 2vw;
+	box-sizing: border-box;
+	text-align: center;
+	background: white;
+	box-shadow: 0.5vh 0.5vw 2vw 1vw rgba(0, 0, 0, 0.2);
+	
+}
+
+.picture-container-right{
+	position: relative;
+	width: fit-content;
+	bottom:0vw;
+	margin: 2vw;
+	right: 0vw;
+	box-sizing: border-box;
+	text-align: center;
+	background: white;
+	height: fit-content;
+	box-shadow: 0.5vh 0.5vw 2vw 1vw rgba(0, 0, 0, 0.2);
+	
+}
+
+.picture-title{
+	font-size: 2.8vw;
+}
+
+@media only screen and (max-width: 600px) {
+
+	.flex-container{
+		flex-direction: column;
+	}
+
+	.picture{
+		width: 80vw;
+	}
+
+	.picture-title{
+	font-size: 5vh;
+
+
+
+}
