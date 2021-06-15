@@ -82,7 +82,13 @@ p{
 
 	.picture-title{
 	font-size: 5vh;
+	}
+	p{
+
+	text-align: justify;
+	margin-left: 2vh;
+	margin-right: 2vh;
 
 
-
+}
 }
